@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.leftsection {
+  height: 80vh;
+  width: 30vw;
+  background-color: blue;
+}
+.rightsection {
+  height: 80vh;
+  width: 30vw;
+  background-color: red;
+  position: absolute;
+  top: 10vh;
+  right: 10vw;
+}
