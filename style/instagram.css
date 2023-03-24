@@ -11,13 +11,109 @@
 .leftsection {
   height: 80vh;
   width: 30vw;
-  background-color: blue;
+  /* background-color: blue; */
+  position: absolute;
+  top: 5vh;
+  left: 15vw;
+}
+
+.image1 {
+  position: relative;
+  border: 1px solid rgba(0, 0, 0, 0.225);
+
+  height: 70vh;
+}
+.image2 {
+  position: absolute;
+  top: 7vh;
+  left: 4vw;
+  border: 1px solid rgba(0, 0, 0, 0.225);
+
+  height: 70vh;
 }
 .rightsection {
-  height: 80vh;
-  width: 30vw;
-  background-color: red;
+  height: 70vh;
+  width: 26vw;
+  /* background-color: red; */
   position: absolute;
-  top: 10vh;
-  right: 10vw;
+  top: 5vh;
+  right: 15vw;
+  border: 1px solid rgba(0, 0, 0, 0.225);
+  padding: 2rem;
+}
+#instaimg {
+  padding: 1rem 0 2.5rem 3.9rem;
+}
+input {
+  width: 21vw;
+  padding: 1rem 0.7rem;
+  border: 1px solid rgba(0, 0, 0, 0.225);
+  margin-bottom: 0.6rem;
+  border-radius: 5px;
+  background-color: rgba(128, 128, 128, 0.055);
+}
+input:focus {
+  outline: none;
+}
+.login {
+  width: 21vw;
+  padding: 0.6rem 0.7rem;
+  border: 1px solid #1876f2c4;
+  margin-top: 0.7rem;
+  border-radius: 5px;
+  background-color: #1876f2c4;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+.lineor {
+  margin-top: 1rem;
+}
+.linebeforeor {
+  width: 8vw;
+  border-top: 1px solid rgba(0, 0, 0, 0.225);
+  position: relative;
+  top: 0.6vw;
+}
+.or {
+  text-align: center;
+  color: rgba(0, 0, 0, 0.612);
+  font-size: 13px;
+}
+.lineafteror {
+  width: 8vw;
+  border-top: 1px solid rgba(0, 0, 0, 0.225);
+  bottom: 0.6vw;
+  left: 13vw;
+  position: relative;
+}
+.link {
+  text-align: center;
+}
+.loginf {
+  margin-top: 2.1rem;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 1.2rem;
+  color: rgba(0, 0, 255, 0.823);
+}
+#forgotp {
+  text-decoration: none;
+  color: #1876f2;
+  font-size: 15px;
+}
+.rightbottom {
+  position: relative;
+  height: 10vh;
+  width: 26vw;
+  /* background-color: red; */
+  top: 77vh;
+  right: -59vw;
+  text-align: center;
+  padding: 1.3rem;
+  border: 1px solid rgba(0, 0, 0, 0.225);
+}
+.rightbottom span {
+  color: #1876f2;
 }
